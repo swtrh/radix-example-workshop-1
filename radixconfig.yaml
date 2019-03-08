@@ -28,8 +28,8 @@ spec:
           variables:
             PORT: 3000
             NODE_ENV: "production"
-      # secrets:
-      #   - MY_SUPER_SECRET
+      secrets:
+        - BOT_ID
     - name: www
       src: ./www
       ports:
